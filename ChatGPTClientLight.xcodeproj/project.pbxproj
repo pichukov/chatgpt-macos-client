@@ -54,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7420D75929D471E300087F03 /* ChatGPTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7420D75929D471E300087F03 /* ChatGPTClientLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTClientLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7420D75C29D471E300087F03 /* ChatGPTClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTClientApp.swift; sourceTree = "<group>"; };
 		7420D75E29D471E300087F03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7420D76029D471E500087F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		7483D46429D7F501009699CE /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
 		7483D46729D7F54C009699CE /* AnswerConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerConverter.swift; sourceTree = "<group>"; };
 		7483D46929D7F59B009699CE /* TextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlock.swift; sourceTree = "<group>"; };
-		7483D46F29D7F6B9009699CE /* ChatGPTClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7483D46F29D7F6B9009699CE /* ChatGPTClientLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTClientLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7483D47129D7F6B9009699CE /* ChatGPTClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTClientTests.swift; sourceTree = "<group>"; };
 		7483D47C29D7FEE7009699CE /* ButtonDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDS.swift; sourceTree = "<group>"; };
 		7483D47F29D80011009699CE /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		7420D75029D471E300087F03 = {
 			isa = PBXGroup;
 			children = (
-				7420D75B29D471E300087F03 /* ChatGPTClient */,
-				7483D47029D7F6B9009699CE /* ChatGPTClientTests */,
+				7420D75B29D471E300087F03 /* ChatGPTClientLight */,
+				7483D47029D7F6B9009699CE /* ChatGPTClientLightTests */,
 				7420D75A29D471E300087F03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,13 +120,13 @@
 		7420D75A29D471E300087F03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7420D75929D471E300087F03 /* ChatGPTClient.app */,
-				7483D46F29D7F6B9009699CE /* ChatGPTClientTests.xctest */,
+				7420D75929D471E300087F03 /* ChatGPTClientLight.app */,
+				7483D46F29D7F6B9009699CE /* ChatGPTClientLightTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7420D75B29D471E300087F03 /* ChatGPTClient */ = {
+		7420D75B29D471E300087F03 /* ChatGPTClientLight */ = {
 			isa = PBXGroup;
 			children = (
 				7483D48C29D8195B009699CE /* Extensions */,
@@ -143,7 +143,7 @@
 				7420D76529D471E500087F03 /* ChatGPTClient.entitlements */,
 				7420D76229D471E500087F03 /* Preview Content */,
 			);
-			path = ChatGPTClient;
+			path = ChatGPTClientLight;
 			sourceTree = "<group>";
 		};
 		7420D76229D471E500087F03 /* Preview Content */ = {
@@ -198,12 +198,12 @@
 			path = Converters;
 			sourceTree = "<group>";
 		};
-		7483D47029D7F6B9009699CE /* ChatGPTClientTests */ = {
+		7483D47029D7F6B9009699CE /* ChatGPTClientLightTests */ = {
 			isa = PBXGroup;
 			children = (
 				7483D47129D7F6B9009699CE /* ChatGPTClientTests.swift */,
 			);
-			path = ChatGPTClientTests;
+			path = ChatGPTClientLightTests;
 			sourceTree = "<group>";
 		};
 		7483D47B29D7FEAE009699CE /* DesignSystem */ = {
@@ -254,9 +254,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7420D75829D471E300087F03 /* ChatGPTClient */ = {
+		7420D75829D471E300087F03 /* ChatGPTClientLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7420D76829D471E500087F03 /* Build configuration list for PBXNativeTarget "ChatGPTClient" */;
+			buildConfigurationList = 7420D76829D471E500087F03 /* Build configuration list for PBXNativeTarget "ChatGPTClientLight" */;
 			buildPhases = (
 				7420D75529D471E300087F03 /* Sources */,
 				7420D75629D471E300087F03 /* Frameworks */,
@@ -266,17 +266,17 @@
 			);
 			dependencies = (
 			);
-			name = ChatGPTClient;
+			name = ChatGPTClientLight;
 			packageProductDependencies = (
 				7420D78429D4BA6600087F03 /* MarkdownUI */,
 			);
 			productName = ChatGPTClient;
-			productReference = 7420D75929D471E300087F03 /* ChatGPTClient.app */;
+			productReference = 7420D75929D471E300087F03 /* ChatGPTClientLight.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7483D46E29D7F6B9009699CE /* ChatGPTClientTests */ = {
+		7483D46E29D7F6B9009699CE /* ChatGPTClientLightTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7483D47529D7F6B9009699CE /* Build configuration list for PBXNativeTarget "ChatGPTClientTests" */;
+			buildConfigurationList = 7483D47529D7F6B9009699CE /* Build configuration list for PBXNativeTarget "ChatGPTClientLightTests" */;
 			buildPhases = (
 				7483D46B29D7F6B9009699CE /* Sources */,
 				7483D46C29D7F6B9009699CE /* Frameworks */,
@@ -287,9 +287,9 @@
 			dependencies = (
 				7483D47429D7F6B9009699CE /* PBXTargetDependency */,
 			);
-			name = ChatGPTClientTests;
+			name = ChatGPTClientLightTests;
 			productName = ChatGPTClientTests;
-			productReference = 7483D46F29D7F6B9009699CE /* ChatGPTClientTests.xctest */;
+			productReference = 7483D46F29D7F6B9009699CE /* ChatGPTClientLightTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -311,7 +311,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7420D75429D471E300087F03 /* Build configuration list for PBXProject "ChatGPTClient" */;
+			buildConfigurationList = 7420D75429D471E300087F03 /* Build configuration list for PBXProject "ChatGPTClientLight" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -327,8 +327,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7420D75829D471E300087F03 /* ChatGPTClient */,
-				7483D46E29D7F6B9009699CE /* ChatGPTClientTests */,
+				7420D75829D471E300087F03 /* ChatGPTClientLight */,
+				7483D46E29D7F6B9009699CE /* ChatGPTClientLightTests */,
 			);
 		};
 /* End PBXProject section */
@@ -403,7 +403,7 @@
 /* Begin PBXTargetDependency section */
 		7483D47429D7F6B9009699CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7420D75829D471E300087F03 /* ChatGPTClient */;
+			target = 7420D75829D471E300087F03 /* ChatGPTClientLight */;
 			targetProxy = 7483D47329D7F6B9009699CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,6 +441,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ChatGPTClientLight/ChatGPTClientLight.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -501,6 +502,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ChatGPTClientLight/ChatGPTClientLight.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -527,11 +529,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ChatGPTClient/ChatGPTClient.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ChatGPTClientLight/ChatGPTClientLight.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChatGPTClient/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGPTClientLight/Preview Content\"";
 				DEVELOPMENT_TEAM = 5S8S2QZ9WK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -554,11 +557,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ChatGPTClient/ChatGPTClient.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ChatGPTClientLight/ChatGPTClientLight.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChatGPTClient/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGPTClientLight/Preview Content\"";
 				DEVELOPMENT_TEAM = 5S8S2QZ9WK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -589,7 +593,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPTClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPTClient";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPTClientLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPTClientLight";
 			};
 			name = Debug;
 		};
@@ -606,14 +610,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPTClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPTClient";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPTClientLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPTClientLight";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7420D75429D471E300087F03 /* Build configuration list for PBXProject "ChatGPTClient" */ = {
+		7420D75429D471E300087F03 /* Build configuration list for PBXProject "ChatGPTClientLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7420D76629D471E500087F03 /* Debug */,
@@ -622,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7420D76829D471E500087F03 /* Build configuration list for PBXNativeTarget "ChatGPTClient" */ = {
+		7420D76829D471E500087F03 /* Build configuration list for PBXNativeTarget "ChatGPTClientLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7420D76929D471E500087F03 /* Debug */,
@@ -631,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7483D47529D7F6B9009699CE /* Build configuration list for PBXNativeTarget "ChatGPTClientTests" */ = {
+		7483D47529D7F6B9009699CE /* Build configuration list for PBXNativeTarget "ChatGPTClientLightTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7483D47629D7F6B9009699CE /* Debug */,
